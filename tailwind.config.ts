@@ -99,6 +99,9 @@ module.exports = {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(calc(-100% - var(--gap)))" },
         },
+        "gradient": {
+          to: { backgroundPosition: "var(--bg-size) 0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -110,6 +113,7 @@ module.exports = {
         "shimmer": "shimmer 2s linear infinite",
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         "marquee": "marquee var(--duration) linear infinite",
+        "gradient": "gradient 8s linear infinite",
       },
     },
   },
