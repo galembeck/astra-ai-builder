@@ -6,7 +6,7 @@ interface Props {
     children: React.ReactNode;
 }
 
-const MarketingLayout = ({ children }: Props) => {
+const RootLayout = ({ children }: Props) => {
     return (
         <div className="flex flex-col items-center w-full">
             <Navbar />
@@ -16,4 +16,4 @@ const MarketingLayout = ({ children }: Props) => {
     )
 };
 
-export default MarketingLayout
+export default RootLayout

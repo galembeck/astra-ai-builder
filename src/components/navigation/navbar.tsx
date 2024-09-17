@@ -20,22 +20,22 @@ export async function Navbar() {
         <nav className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
           <ul className="flex items-center justify-center gap-8">
             <li className="hover:text-foreground/80 text-sm">
-              <Link href="#">
+              <Link href="/#pricing">
                 Pricing
               </Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href="#">
+              <Link href="/#about">
                 About
               </Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href="#">
+              <Link href="/#features">
                 Features
               </Link>
             </li>
             <li className="hover:text-foreground/80 text-sm">
-              <Link href="#">
+              <Link href="/blog">
                 Blog
               </Link>
             </li>

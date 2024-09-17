@@ -21,7 +21,7 @@ export function Footer() {
                     Build beautiful, functional websites, without writing code
                 </p>
                 <span className="mt-4 text-neutral-200 text-sm flex items-center">
-                    Made in India with
+                    Made in Brazil with
                     <Heart className="w-3.5 h-3.5 ml-1 fill-primary text-primary" />
                 </span>
             </div>
@@ -137,6 +137,13 @@ export function Footer() {
             <p className="text-sm text-muted-foreground mt-8 md:mt-0">
                 &copy; {new Date().getFullYear()} Astra AI INC. All rights reserved.
             </p>
+            <Link 
+                href="https://github.com/galembeck"
+                target="_blank"
+                className="text-sm text-white mt-8 md:mt-0 hover:text-white/80 transition outline-none" 
+            >
+                Pedro Galembeck | GitHub
+            </Link>
         </div>
 
     </footer>
